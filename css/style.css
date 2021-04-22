@@ -5,33 +5,56 @@
 }
 
 body{
-    padding:10px 60px;
-    background-color: red;
+    padding:10px 150px;
 }
 
 header{
     background-color: #e579e6;
-    height: 50px;
-    margin-bottom: 10px;
+    height: 80px;
+    margin-bottom: 20px;
 }
 
 .yellow{
     background-color: #e1d67a;
-    height: 200px;
-    margin-bottom: 10px;
-}
-
-footer{
-    background-color: #8801fe;
-    height: 25px;
-    margin-bottom: 5px;
+    height: 250px;
+    margin-bottom: 20px;
 }
 
 .blue{
     background-color: #0086ff;
+    margin-bottom: 5px;
 }
 
 .jumbotron{
     background-color: #abcfe7;
+    height: 60px;
+    margin-bottom: 10px;
+}
 
+aside{
+    float: left;
+    background-color: #abcfe7;
+    height: 300px;
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+.colonna-centrale{
+    float: left;
+    background-color: #abcfe7;
+    height: 300px;
+    width: calc(60% - 20px);
+    margin: 0 10px 10px;
+}
+
+.blue::after {
+    content:'';
+    display: table;
+    clear: both;
+}
+
+footer{
+    background-color: #8801fe;
+    height: 40px;
+    margin-bottom: 5px;
 }
