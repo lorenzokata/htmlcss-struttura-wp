@@ -4,3 +4,34 @@
     box-sizing: border-box;
 }
 
+body{
+    padding:10px 60px;
+    background-color: red;
+}
+
+header{
+    background-color: #e579e6;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.yellow{
+    background-color: #e1d67a;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: #8801fe;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+.blue{
+    background-color: #0086ff;
+}
+
+.jumbotron{
+    background-color: #abcfe7;
+
+}
